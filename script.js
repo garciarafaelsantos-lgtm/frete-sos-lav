@@ -62,7 +62,7 @@ limparBtn.addEventListener('click', function() {
 
 /**
  * Calcula o valor do frete baseado na fórmula:
- * valor_total = ((ida + volta) * 2) * valor_combustivel / 10 * 1.7
+ * valor_total = ((ida + volta) * 2) * valor_combustivel / 10 * 1.8
  * 
  * Processo:
  * 1. Obtém os valores dos inputs
