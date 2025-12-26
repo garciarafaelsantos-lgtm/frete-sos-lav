@@ -85,8 +85,8 @@ function calcularFrete() {
     const quilometragemTotal = (quilometragemIda + quilometragemVolta) * 2;
 
     // Aplica a fórmula de cálculo do frete
-    // Fórmula: valor_total = ((ida + volta) * 2) * valor_combustivel / 10 * 1.7
-    const valorTotal = ((quilometragemTotal) * valorCombustivel / 10) * 1.7;
+    // Fórmula: valor_total = ((ida + volta) * 2) * valor_combustivel / 10 * 1.8
+    const valorTotal = ((quilometragemTotal) * valorCombustivel / 10) * 1.8;
 
     // Exibe os resultados na tela
     exibirResultados(quilometragemTotal, valorTotal);
